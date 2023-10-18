@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <h1> NEWS2DAY</h1>
+    <form action="/beta-sign-up" method="post" onsubmit="return onSubmit(this)">
+        <input type="text" name="name" placeholder="Your name">
+        <input type="email" name="email" placeholder="Your email address">
+        <input type="tel" name="phone" placeholder="Your phone number">
+        <input type="checkbox" name="terms" required> I agree to the terms of service.
+        <input type="submit" value="Sign up">
+       
+    </form>
+    <div id="thankYouMessage" style="display: none;">
+        <h1>Thank you for signing up!</h1>
+        <p>Please check your email to confirm your subscription.</p>
+    </div>
+</body>
+
+</html>
